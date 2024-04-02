@@ -1,0 +1,165 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+      .cont{
+        display: flex;
+        padding: 50px;
+        justify-content: space-between;
+        width: 70%;
+        border: 2px solid green;
+        margin: 0 auto;
+        align-items: center;
+        margin-top: 50px;
+      }
+      .contin{
+        display: flex;
+        justify-content: space-between;
+     
+        column-gap: 20px;
+        
+        align-items: center;
+        
+      }
+
+      h1{
+        text-align: center;
+      }
+      .playbtn{
+        margin: 0 auto;
+        display: block;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: #0e82a5;
+        color: white;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 20px;
+      }
+
+      .Option{
+        padding: 4px;
+        width: 30px;
+        background-color: rgb(221, 207, 207);
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+        
+
+      }
+
+      .Option:hover{
+           border: 2px sold green;
+           background-color: rgb(155, 243, 155);
+      }
+      .btn_cont{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+
+    }
+    .mainArea{
+        border: 1px solid black;
+        border-radius: 20px;
+        height: 200px;
+        width: 300px;
+        background-color: rgb(198, 155, 238);
+    }
+
+
+    .output{
+            display: flex;
+            justify-content: space-between;
+            width: 400px;
+            margin: 70 auto;
+        }
+
+      
+    /* score */
+
+    .score{
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid blue; */
+       margin: 0 auto;
+    }
+     
+
+</style>
+<body>
+      <h1 >Cricket Game</h1>
+      <button class="playbtn">Let's Start</button>
+      <div class="cont" >
+        <!-- Player One -->
+        <div class="contIn"> 
+            <div >
+                <div><img src="bat.jpeg" alt=""></div>
+                <button class="playbtn">Player One</button>
+            </div>
+            <div class="btn_cont">
+                <button class="Option">0</button>
+                <button class="Option">1</button>
+                <button class="Option">2</button>
+                <button class="Option">3</button>
+                <button class="Option">4</button>
+                <button class="Option">5</button>
+                <button class="Option">6</button>
+            </div>
+        </div>
+
+        <div class="playArea">
+             <div class="mainArea">
+                     
+             </div>
+        </div>
+        <!-- Player Two  -->
+       
+        <div class="contIn"> 
+            <div class="btn_cont">
+                <button class="Option">0</button>
+                <button class="Option">1</button>
+                <button class="Option">2</button>
+                <button class="Option">3</button>
+                <button class="Option">4</button>
+                <button class="Option">5</button>
+                <button class="Option">6</button>
+            </div>
+        <div >
+            <div><img src="Bowl.jpeg" alt=""></div>
+            <button class="playbtn">Player Two</button>
+        </div>
+
+        <!-- score    -->
+
+
+        
+       
+    </div>
+   
+       
+      
+      </div>
+      <div class="output">
+          <div class="score">
+            <h2>score: </h2>
+            <h3>Remaining Balls: </h3>
+            <h4>Total balls:</h4>
+            <h4>Target:</h4>
+    
+        </div>
+        <div class="result">
+            <div></div>
+            <img src="win .jpeg" alt="">
+
+        </div>
+
+      </div>
+
+
+</body>
+</html>
